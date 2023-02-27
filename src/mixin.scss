@@ -1,0 +1,10 @@
+@mixin fond($wight,$size,$line) {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: $wight;
+    font-size: $size;
+    line-height: $line;
+}
+
+
+$colorFond:#21243D;

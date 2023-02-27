@@ -1,0 +1,29 @@
+@import "../../mixin.scss";
+
+.wrapper {
+  margin-top: 140px;
+  padding: 0 12.8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.acquaintance {
+  width: 50%;
+  h1 {
+    @include fond(700, 3.3vw, 60px);
+    color: $colorFond;
+  }
+  h4 {
+    @include fond(400, 1.3vw, 24px);
+    color: $colorFond;
+    padding: 40px 0px 38px 0px;
+  }
+  button {
+    background-color: #ff6464;
+    border-radius: 2px;
+    width: 42%;
+    height: 47px;
+    @include fond(500,1.2vw,29px);
+    color: white;
+  }
+}
