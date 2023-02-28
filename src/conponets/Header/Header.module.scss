@@ -1,16 +1,31 @@
 @import "../../mixin.scss";
 
-.nav {
+@mixin nav {
   display: flex;
-  margin: 28px 4% 0px 0px;
+  height: 80px;
+  align-items: center;
+  margin-right: 5.2%;
   justify-content: flex-end;
+}
+
+.nav {
+  @include nav;
+  @media (max-width: 590px) {
+    display: none;
+  }
   li {
     cursor: pointer;
     @include fond(500, 20px, 29px);
     color: #000000;
 
     &:nth-of-type(2) {
-      padding: 0 2%;
+      margin: 0 2%;
     }
+  }
+}
+.menu {
+  display: none;
+  @media (max-width: 590px) {
+    @include nav;
   }
 }

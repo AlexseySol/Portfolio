@@ -1,0 +1,20 @@
+@import "../../mixin.scss";
+
+
+
+.wrapper{
+    margin-top: 80px;
+height: 160px;
+}
+
+.social{
+display: flex;
+align-items: center;
+justify-content: center;
+li{
+    padding: 1.5rem 1rem;
+}
+}
+h3{
+    text-align: center;
+}

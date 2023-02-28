@@ -6,7 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
  margin: 0px;
  padding: 0px;
- 
+ background-color: #E5E5E5;
 }
 
 ul,li{

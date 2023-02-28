@@ -1,3 +1,12 @@
+$colorFond:#21243D;
+
+
+
+@mixin wid{
+    width: 74.4%;
+    margin: 0 auto;
+}
+
 @mixin fond($wight,$size,$line) {
     font-family: 'Heebo';
     font-style: normal;
@@ -7,4 +16,26 @@
 }
 
 
-$colorFond:#21243D;
+
+
+
+@mixin width {
+    @media (max-width:900px) {
+      margin: 0 auto;
+        width: 80%;
+      }
+      @media (max-width:800px) {
+        width: 85%;
+        margin: 0 auto;
+      }
+      @media (max-width:700px) {
+        width: 95%;
+        margin: 0 auto;
+      }
+}
+
+@mixin mobWidth{
+    @media (max-width:590px) {
+      
+      }
+}

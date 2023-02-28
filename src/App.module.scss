@@ -1,6 +1,10 @@
-.wrapper{
-    max-width: 100%;
-    @media (min-width:375px) {
-        
+.wrapper {
+  max-width: 100%;
+  .img{
+
+    @media (max-width:590px) {
+        width: 100%;
+       
     }
+  }
 }
