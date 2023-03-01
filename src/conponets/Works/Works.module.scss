@@ -28,6 +28,7 @@
   h3 {
     @include fond(400, 16px, 24px);
     color: $colorFond;
+    text-align: start;
   }
 }
 .info_block {
@@ -50,6 +51,7 @@
 .block_wokrs {
   @include fond(400, 20px, 29px);
   color: #8695a4;
+ 
   span {
     margin-right: 26px;
     padding: 1px 7px;

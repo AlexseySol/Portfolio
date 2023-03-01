@@ -1,0 +1,64 @@
+@import "../../mixin.scss";
+
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  @include width;
+  h1 {
+    margin-top: 120px;
+    @include fond(700, 44px, 60px);
+    color: $colorFond;
+  }
+}
+
+.exit {
+  position: absolute;
+  top: 25px;
+  .svg {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+}
+.card {
+  display: flex;
+  padding: 2rem 0px;
+  border-bottom: 1px solid #c7c6c6;
+  @media (max-width: 590px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 15px 0px;
+  }
+  h2 {
+    @include fond(500, 30px, 44px);
+    color: $colorFond;
+  }
+  .block {
+    b {
+      @include fond(900, 18px, 60px);
+      color: white;
+    padding: 2px 6px;
+      background: #142850;
+      border-radius: 16px;
+  
+    }
+
+    span {
+      color: #8695a4;
+      border-left: 1px solid black;
+      padding-left: 16px;
+    }
+  }
+  h4 {
+    @include fond(400, 16px, 25px);
+    color: $colorFond;
+  }
+}
+.card_block {
+  padding-left: 1.5rem;
+}

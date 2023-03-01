@@ -5,6 +5,9 @@
 .wrapper{
     margin-top: 80px;
 height: 160px;
+@media (max-width:590px) {
+      margin-top: 40px;
+}
 }
 
 .social{
