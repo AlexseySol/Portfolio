@@ -11,7 +11,7 @@ export const Header = ({ activ, setActiv }) => {
     <header className={header.wrapper}>
       <div className={header.menu}>
         <button>
-          <Menu onClick={() => setIsMenu((prev) => !prev)} />
+          <Menu  onClick={() => setIsMenu((prev) => !prev)} />
         </button>
       </div>
       {isMenu ? <BurgerMenu /> : false}

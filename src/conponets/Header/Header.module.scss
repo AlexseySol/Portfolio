@@ -34,7 +34,7 @@
 }
 .exit {
   position: absolute;
-  top: 25px;
+  top: 30px;
   left: 20%;
   .svg {
     -webkit-transform: rotate(270deg);
@@ -46,11 +46,12 @@
 }
 .burgerMenu_wrapper {
   position: absolute;
-  top: 20px;
-  left: 3%;
+  top: 25px;
+  left: 10%;
   display: flex;
   ul {
     display: flex;
+    align-items: center;
   }
   .burgerMenu_nav {
     cursor: pointer;
@@ -58,6 +59,7 @@
     color: #000000;
     margin: 0 5%;
   }
+
   @media (min-width: 590px) {
     display: none;
   }
