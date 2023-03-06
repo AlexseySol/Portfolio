@@ -5,7 +5,10 @@ export const Name = () => {
   return (
     <div className={name.wrapper}>
       <div className={name.acquaintance}>
-        <h1>Hi, I am John,<br /> Creative Technologist</h1>
+        <h1>
+          Hi, I am John,
+          <br /> Creative Technologist
+        </h1>
         <h4>
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
@@ -14,7 +17,7 @@ export const Name = () => {
         <button>Download Resume</button>
       </div>
       <div className={name.photo}>
-        <img  src="/img/face.png" alt="sd" />
+        <img src="/img/face.png" alt="sd" />
       </div>
     </div>
   );

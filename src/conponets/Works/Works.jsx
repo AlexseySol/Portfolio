@@ -6,11 +6,10 @@ export const Works = ({ arrayWorksCard }) => {
   return (
     <div className={work.wrapper}>
       <h3 className={work.title}>Featured works</h3>
-   
-        {arrayWorksCard.map((card) => {
-          return <WorksCard key={card.id} {...card} />;
-        })}
-     
+
+      {arrayWorksCard.map((card) => {
+        return <WorksCard key={card.id} {...card} />;
+      })}
     </div>
   );
 };

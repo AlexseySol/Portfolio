@@ -9,15 +9,15 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap-reverse;
-@media (max-width:590px) {
-  flex-direction: column-reverse;
-  width: 100%;
-  margin-top: 55px;
-}
-@include width;
+  @media (max-width: 590px) {
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-top: 55px;
+  }
+  @include width;
 }
 .acquaintance {
-  @media (max-width:590px) {
+  @media (max-width: 590px) {
     text-align: center;
     width: 100%;
   }

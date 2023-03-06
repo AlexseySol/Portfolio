@@ -1,23 +1,21 @@
 @import "../../mixin.scss";
 
-
-
-.wrapper{
-    margin-top: 80px;
-height: 160px;
-@media (max-width:590px) {
-      margin-top: 40px;
-}
+.wrapper {
+  margin-top: 80px;
+  height: 160px;
+  @media (max-width: 590px) {
+    margin-top: 40px;
+  }
 }
 
-.social{
-display: flex;
-align-items: center;
-justify-content: center;
-li{
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  li {
     padding: 1.5rem 1rem;
+  }
 }
-}
-h3{
-    text-align: center;
+h3 {
+  text-align: center;
 }

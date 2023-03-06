@@ -29,9 +29,36 @@
     @include nav;
   }
 }
-.nav_link{
+.nav_link {
   color: #000000;
 }
-.link{
-  color: red;
+.exit {
+  position: absolute;
+  top: 25px;
+  left: 20%;
+  .svg {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+  }
+}
+.burgerMenu_wrapper {
+  position: absolute;
+  top: 20px;
+  left: 3%;
+  display: flex;
+  ul {
+    display: flex;
+  }
+  .burgerMenu_nav {
+    cursor: pointer;
+    @include fond(500, 20px, 29px);
+    color: #000000;
+    margin: 0 5%;
+  }
+  @media (min-width: 590px) {
+    display: none;
+  }
 }
